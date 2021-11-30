@@ -1,0 +1,35 @@
+.computadoresEditar {
+  height: 60vh;
+  border: 3px solid rgb(127, 179, 209);
+  margin: 0.2%;
+  background-color: rgb(221, 248, 248);
+  text-align: center;
+
+}
+
+.row--marks--buttons {
+  margin-left: 9rem;
+  margin-top: 1rem;
+}
+
+.button-save-marca{
+  margin-right: 1rem;
+  color: blue;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+.button-save-marca:hover {
+  color: rgb(73, 73, 236)
+}
+
+.button-return-marca {
+  color: blue;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+}

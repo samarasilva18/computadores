@@ -1,0 +1,12 @@
+.cabecalho {
+  height: 10vh;
+  border: 1px solid rgb(127, 179, 209);
+  margin: 0.2% ;
+  background-color: rgb(83, 122, 180);
+  color: rgb(221, 248, 248);
+}
+
+.conteudo {
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+}

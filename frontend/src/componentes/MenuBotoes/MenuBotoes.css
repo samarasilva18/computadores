@@ -1,0 +1,15 @@
+.menuBotoes {
+  height: 7vh;
+  border: 3px solid rgb(127, 179, 209);
+  margin: 0.0% 0.3% 0.2% 0.3%; 
+  background-color: rgb(38, 102, 155);
+  display: flex;
+  align-content: center;
+}
+
+#btnComputadores, #btnFabricantes {
+  margin: 0.5rem;
+  width: 150px;
+  min-width: 8rem;
+  margin-left: 3vw;
+}
