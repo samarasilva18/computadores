@@ -48,7 +48,7 @@ export default function FabricantesEditar() {
         }
         IfCrud();
         getFabricantes();
-    });
+    }, []);
 
     async function handleFabricantes(e) {
         e.preventDefault();
@@ -62,7 +62,7 @@ export default function FabricantesEditar() {
                 alert('Insira um nome válido')
             } else {
                 console.log("Código Fabricante: ",idFabricante)
-                if (idFabricante === 0) {
+                if (idFabricante == 0) {
                     console.log("Inclusão de Registro!")
                     await urlapi.post('fabricantes', data);
                 } else {

@@ -53,7 +53,7 @@ export default function ComputadoresEditar() {
         }
         IfCrud();
         getComputadores();
-    });
+    }, []);
 
     async function handleComputadores(e) {
         e.preventDefault();
@@ -67,7 +67,7 @@ export default function ComputadoresEditar() {
                 alert('Insira uma descrição do modelo')
             } else {
                 console.log("Codigo Computador: ",idComputador)
-                if (idComputador === 0) {
+                if (idComputador == 0) {
                     console.log("Inclusão de Registro!")
                     await urlapi.post('computadores', data);
                 } else {
